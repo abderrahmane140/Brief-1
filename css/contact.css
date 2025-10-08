@@ -1,0 +1,74 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    width: 400px;
+    height: 450px;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-1,.input-2{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.input-1 input, .input-2 input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 4px;
+    color: #EE5007;
+}
+.input-1 label, .input-2 label{
+    color: #EE5007;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-3{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.input-3 label{
+    color: #EE5007;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.input-3 textarea{
+    width: 300px;
+    height: 100px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+    width: 50%;
+    margin-top: 7px;
+}
+.submit button{
+    width: 100%;
+    background: #EE5007;
+    padding: 10px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+}
+form h3{
+    color: #EE5007;
+    text-align: center;
+}
