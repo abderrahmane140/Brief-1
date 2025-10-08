@@ -1,0 +1,40 @@
+.container{
+    margin-top: 50px;
+}
+
+.container h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    gap: 4px;
+    margin: 10px;
+}
+
+.card-container .card-content{
+    padding: 50px;
+    background: black; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.card button{
+    color: white;
+    background-color:#EE5007 ;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+}
+
+.card button:hover{
+    background-color:#a53602;
+}
