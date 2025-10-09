@@ -1,6 +1,6 @@
-.container{
+/* .container{
     margin-top: 50px;
-}
+} */
 
 .container h4{
     margin-top: 30px;
@@ -16,6 +16,7 @@
     border-radius: 10px;
     gap: 4px;
     margin: 10px;
+    margin-bottom: 20px;
 }
 
 .card-container .card-content{
@@ -37,4 +38,19 @@
 
 .card button:hover{
     background-color:#a53602;
+}
+
+
+@media (max-width: 600px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
