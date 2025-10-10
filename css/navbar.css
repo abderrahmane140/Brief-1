@@ -1,8 +1,4 @@
-.hero-section{
-    background-image: url(./images/jade-masri-74tlEYKgrBE-unsplash.jpg);
-    background-size: 80rem;
-    background-repeat: no-repeat;
-}
+
 .btn-container{
     display: flex;
     align-items: center;
